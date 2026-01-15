@@ -24,6 +24,7 @@
         <!-- Thickness Resources -->
         <Thickness x:Key="StandardMargin">0,10,0,0</Thickness>
         <Thickness x:Key="SmallMargin">0,5,0,0</Thickness>
+        <Thickness x:Key="LabelMargin">0,0,0,5</Thickness>
         <Thickness x:Key="HeaderMargin">0,0,0,20</Thickness>
         <Thickness x:Key="HorizontalMargin">10,0,0,0</Thickness>
         <Thickness x:Key="StandardPadding">5</Thickness>
@@ -38,7 +39,7 @@
         
         <Style x:Key="LabelTextStyle" TargetType="TextBlock">
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Margin" Value="{StaticResource SmallMargin}"/>
+            <Setter Property="Margin" Value="{StaticResource LabelMargin}"/>
         </Style>
         
         <Style x:Key="HintTextStyle" TargetType="TextBlock">
